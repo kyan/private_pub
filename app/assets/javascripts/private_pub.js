@@ -15,7 +15,8 @@ function buildPrivatePub(doc) {
           self.connecting = true;
           var script = doc.createElement("script");
           script.type = "text/javascript";
-          script.src = self.subscriptions.server + ".js";
+          //script.src = self.subscriptions.server + ".js";
+          script.src = "https://staging-ams.partnership.co.uk/faye.js";
           script.onload = self.connectToFaye;
           doc.documentElement.appendChild(script);
         }
