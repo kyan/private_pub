@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = "private_pub"
-  s.version     = "1.0.1b"
+  s.version     = "1.0.1c"
   s.author      = "Ryan Bates"
   s.email       = "ryan@railscasts.com"
   s.homepage    = "http://github.com/ryanb/private_pub"
